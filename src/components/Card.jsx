@@ -14,7 +14,7 @@ function Card({data}) {
               <img src={curItem.urlToImage} alt="" className='h-[180px] w-full' />
               
             <div className=' p-2 border'>
-            <a className='text-[16px] font-semibold'>{curItem.title}</a>
+            <a className='text-[16px] font-semibold' rn>{curItem.title}</a>
             <p className='pt-5 pb-2'>{curItem.description}</p>
             <button className='bg-blue-400 text-white px-2 py-1' onClick={()=> window.open(curItem.url)}>Read more</button>
             </div>

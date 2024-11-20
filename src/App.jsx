@@ -29,7 +29,7 @@ function App() {
   
   return (
     <div>
-      <Navbar getData={getData}   onchange={handleChange} setSearch={setSearch}/>
+      <Navbar getData={getData} value={search}   onchange={handleChange} setSearch={setSearch}/>
       {newsData?<Card data={newsData}/> : null}
       
     </div>

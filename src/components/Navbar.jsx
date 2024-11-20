@@ -29,10 +29,7 @@ function Navbar({onchange,value,setSearch,getData}) {
     onClick={getData}
     >Search
     </button>
-  <div className="flex items-center space-x-2">
- 
-    <img src="/image/Frame.png" alt="Search Icon" className="h-6 cursor-pointer" />
-  </div>
+
 </nav>
 <div className='flex justify-evenly '>
   <button  className='text-white px-3 py-2 rounded-md bg-red-400' onClick={userInput} value={"Sports"}>Sports</button>
